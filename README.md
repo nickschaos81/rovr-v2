@@ -1,5 +1,1 @@
-# rovr-v2
-# rovr-v2
-# rovr-v2
-testing
-# rovr-v2
+Personal project to fulfill a childhood dream of building a remote robot for exploring from the comfort of my desk.
