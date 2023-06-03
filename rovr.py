@@ -4,7 +4,7 @@ import cv2
 app = Flask(__name__)
 camera = cv2.VideoCapture(0)
 
-# Set camera resolution to 1280x720
+# Set camera resolution to 640x480
 camera.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
