@@ -10,7 +10,6 @@ def generate_frames():
         if not success:
             break
         else:
-            frame = cv2.resize(frame, (640, 480))  # Resize frame to 640x480
             ret, buffer = cv2.imencode('.jpg', frame)
             frame = buffer.tobytes()
 
