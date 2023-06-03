@@ -5,8 +5,8 @@ app = Flask(__name__)
 camera = cv2.VideoCapture(0)
 
 # Set camera resolution to 1280x720
-camera.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+camera.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 
 def generate_frames():
